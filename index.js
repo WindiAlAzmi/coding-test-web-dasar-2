@@ -1,12 +1,20 @@
 const getLengthLetter = (data) => {
   
-  let newDataArray = data.reduce((prev, new) =>  {
-    if(prev === new) {
-       return {new : 1}
-    }else {
-        return
-    }
-  })
+   let getData = data.split("");
+   let newArray = {};
+
+
+       
+     
+   getData.forEach(element => {
+        if(newArray[element]) {
+            console.log(getData[element])
+        }else{
+            console.log('bukan')
+            n
+        }
+    });
+   console.log(newArray, 'ini new array');
     // let newData = [];
     // let getData =  data.split("");
     // console.log(getData, 'ini get data');
